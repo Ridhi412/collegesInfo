@@ -1,25 +1,5 @@
-/*-----------------------------------*\ 
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\ 
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 .light-theme {
-
-  /**
-   * light theme colors 
-   */
-
   --background-primary: hsl(0, 0%, 100%);
   --background-secondary: hsl(0, 0%, 97%);
 
@@ -35,10 +15,6 @@
 }
 
 .dark-theme {
-
-  /**
-   * dark theme colors 
-   */
 
   --background-primary: hsl(218, 23%, 23%);
   --background-secondary: hsl(220, 26%, 14%);
@@ -56,15 +32,7 @@
 
 :root {
 
-  /**
-   * color
-   */
-
   --white: hsl(0, 0%, 100%);
-
-  /**
-   * typography 
-   */
 
   --fs-base: 0.85rem;
   --fs-1: 1.875rem;
@@ -73,17 +41,9 @@
   --fs-4: 0.875rem;
   --fs-5: 0.75rem;
 
-  /**
-   * spacing 
-   */
-
   --py: 5rem;
 
 }
-
-
-
-
 
 /*-----------------------------------*\ 
   #RESET
@@ -140,10 +100,6 @@ html {
 
 .dark-theme::-webkit-scrollbar-track { background: hsl(219, 27%, 20%); }
 
-
-
-
-
 /*-----------------------------------*\ 
   #BASE STYLE
 \*-----------------------------------*/
@@ -180,10 +136,6 @@ html {
 
 .text-tiny { font-size: var(--fs-5); }
 
-
-
-
-
 /*-----------------------------------*\ 
   #REUSED STYLE
 \*-----------------------------------*/
@@ -219,10 +171,6 @@ html {
 
 .btn-secondary:hover { border-color: var(--accent); }
 
-
-
-
-
 /*-----------------------------------*\ 
   #Extra style for dark theme
 \*-----------------------------------*/
@@ -242,9 +190,6 @@ html {
 .dark-theme .load-more:hover { color: var(--white); }
 
 .dark-theme .aside .h2 { color: var(--foreground-primary); }
-
-
-
 
 /*-----------------------------------*\ 
   #HEADER
@@ -341,10 +286,6 @@ header .btn-group {
 
 .mobile-nav .nav-link:hover { color: var(--accent); }
 
-
-
-
-
 /*-----------------------------------*\ 
   #HERO SECTION
 \*-----------------------------------*/
@@ -380,10 +321,6 @@ header .btn-group {
 }
 
 .hero .right { display: none; }
-
-
-
-
 
 /*-----------------------------------*\ 
   #BLOG SECTION
@@ -487,19 +424,11 @@ header .btn-group {
 
 .load-more:hover { background: var(--accent); }
 
-
-
-
-
 /*-----------------------------------*\ 
   #ASIDE
 \*-----------------------------------*/
 
 .aside { display: none; }
-
-
-
-
 
 /*-----------------------------------*\ 
   #FOOTER
@@ -549,10 +478,6 @@ footer .wrapper { text-align: center; }
 }
 
 .copyright a:hover { text-decoration: underline; }
-
-
-
-
 
 /*-----------------------------------*\ 
   #MEDIA QUERIES
