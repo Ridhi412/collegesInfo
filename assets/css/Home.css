@@ -1,6 +1,6 @@
 
 .light-theme {
-    --background-primary: hsl(209, 100%, 83%);
+    --background-primary: hsla(209, 100%, 83%, 0.774);
     --background-secondary: hsl(0, 0%, 97%);
   
     --action-primary: hsl(214, 32%, 91%);
